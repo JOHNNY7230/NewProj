@@ -1,6 +1,3 @@
-
- 
-
 import 'package:flutter/material.dart';
 
 void main() {
@@ -26,7 +23,7 @@ class AplicativoDaForca extends StatelessWidget {
                   color: Color.fromARGB(255, 0, 0, 0),
                   fontSize: 24,
                   fontWeight: FontWeight.bold,
-                  fontFamily: "arial"
+                  fontFamily: "arial",
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -36,14 +33,14 @@ class AplicativoDaForca extends StatelessWidget {
                 style: ElevatedButton.styleFrom(
                   backgroundColor: const Color.fromARGB(255, 47, 0, 255),
                   foregroundColor: const Color.fromARGB(255, 0, 0, 0),
-                  padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 15),
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 30,
+                    vertical: 15,
+                  ),
                 ),
                 child: const Text(
-                  'Clicar, você deve!',
-                  style: TextStyle(fontSize: 18,
-                  fontFamily: "arial"
-                  ),
-                  
+                  'Pressionar, você necessita!',
+                  style: TextStyle(fontSize: 18, fontFamily: "arial"),
                 ),
               ),
             ],
